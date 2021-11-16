@@ -1,1 +1,1 @@
-web gunicorn ft-kickstarter-2:app -t 120 --preload
+web: gunicorn ft-kickstarter-2:APP -t 120
