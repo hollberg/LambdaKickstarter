@@ -1,1 +1,1 @@
-web: gunicorn kickstarter.app:app -t 120
+web: gunicorn app:APP -t 120
