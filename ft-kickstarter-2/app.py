@@ -61,7 +61,7 @@ def create_app():
         # Retrieve the data from the database when the main route is called"""
         return 'Here we are!'
 
-    @app.route('/foop')
+    @app.route('/foox')
     def foo():
         return 'Foo Foof!'
 
