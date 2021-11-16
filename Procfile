@@ -1,1 +1,1 @@
-web gunicorn app:APP -t 120 --preload
+web gunicorn APP:APP -t 120 --preload
