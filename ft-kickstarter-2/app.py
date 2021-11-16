@@ -51,7 +51,12 @@ class Kickstarters(DB.Model):
 def root():
     """Base view.
     # Retrieve the data from the database when the main route is called"""
-    return str('Here we are!')
+    return 'Here we are!'
+
+
+@APP.route('/foo')
+def foo():
+    return 'Foo Foof!'
 
 
 @APP.route('/refresh')
