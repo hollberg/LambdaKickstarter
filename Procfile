@@ -1,1 +1,1 @@
-web gunicorn app:APP -t 120 --preload workers 1
+web gunicorn app:APP -t 120 --preload
