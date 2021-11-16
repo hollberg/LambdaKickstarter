@@ -54,7 +54,7 @@ def root():
     return 'Here we are!'
 
 
-@APP.route('/foo')
+@APP.route('/foop')
 def foo():
     return 'Foo Foof!'
 
