@@ -9,6 +9,7 @@ flask = "*"
 flask-sqlalchemy = "*"
 psycopg = "*"
 pylint = "*"
+gunicorn = "*"
 
 [dev-packages]
 
